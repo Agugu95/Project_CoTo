@@ -10,11 +10,10 @@
 개발환경(장비) : Windows 10, Cygwin, Android SDK 6.0 Mashmellow, Samsung Galuxy Tab 8.0,  
 Amazon Web Service Free Tier, Server version Linux Ubuntu 16.04 LTS, Amazon Free Tier RDS Service,  
 BootStrap 4.04, MySQL 8.0 SE,  
-
-
-1. 로그인 기능 구현
+  
+1. 로그인 기능 구현  
 JavaScript를 통해 웹 페이지를 구현하고 DB연동을 통한 데이터 교환에 따른 로그인 기능 구현 
-Google API를 통한 Google 로그인 기능 구현 
+Google API를 통한 Google 로그인 기능 구현  
 Facebook API를 통한 Facebook 로그인 기능 구현목표   
 <!--------------------------------------19.04.09 수정사항--------------------------------------------->  
 로그인 구현은 Android Native 환경으로 구성할 것  
@@ -27,7 +26,7 @@ Galuxy Tab을 사용하여 테스트 빌드
 2. 반응형 웹페이지 구현  
 BootStarp을 사용  
   
-3. 웹페이지를 웹뷰로 안드로이드에서 제공 
+3. 웹페이지를 웹뷰로 안드로이드에서 제공  
 4. 무료 컴파일러나 웹 컴파일러를 이용한 텍스트 컴파일 기능
 5. 이미지 텍스트 추출 및 분류에 따른  파일 생성 
 6. 생성된 파일이나 텍스트를 통한 컴파일 결과값 제공 
