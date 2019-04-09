@@ -15,7 +15,7 @@ BootStrap 4.04, MySQL 8.0 SE,
 JavaScript를 통해 웹 페이지를 구현하고 DB연동을 통한 데이터 교환에 따른 로그인 기능 구현 
 Google API를 통한 Google 로그인 기능 구현  
 Facebook API를 통한 Facebook 로그인 기능 구현목표   
-<!--------------------------------------19.04.09 수정사항--------------------------------------------->  
+<--------------------------------------19.04.09 수정사항--------------------------------------------->  
 로그인 구현은 Android Native 환경으로 구성할 것  
 Linux Ubuntu 16.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Express.js를 사용하여 WebServer를 구성예정  
 Android 상에서 Webserver를 통해 HTTP Req/Res 방식으로 로그인  
