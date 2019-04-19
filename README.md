@@ -21,7 +21,10 @@ Linux Ubuntu 16.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Exp
 Android 상에서 Webserver를 통해 HTTP Req/Res 방식으로 로그인  
 로그인 정보는 RDS Service를 이용하여 MySQL 테이블에 저장  
 *_암호화 방식은 SHA - 256방식을 사용할 예정 https://victorydntmd.tistory.com/144 _*  
-Galuxy Tab을 사용하여 테스트 빌드  
+Galuxy Tab을 사용하여 테스트 빌드
+<--------------------------------------19.04.19 수정사항 ----------------->
+19.04.26까지의 시험기간이 끝나고 돌입예정....
+  
   
 2. 반응형 웹페이지 구현  
 BootStarp을 사용  
