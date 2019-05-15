@@ -3,8 +3,9 @@
 
 모바일 환경에서의 컴파일을 제공하는 다목적 코딩 플랫폼 프로젝트  
   
-개발환경(장비) : Windows 10, Cygwin, Android SDK 6.0 Mashmellow, Samsung Galuxy Tab 8.0,  
-Amazon Web Service Free Tier, Server version Linux Ubuntu 16.04 LTS, Amazon Free Tier RDS Service,  
+개발환경(장비) : Windows 10, Cygwin, Android SDK 6.0 Mashmellow  
+Samsung Galuxy Tab 8.0,  
+Amazon Web Service Free Tier Account, Server version Linux Ubuntu 16.04 LTS, Amazon Free Tier RDS Service    
 BootStrap 4.04, MySQL 8.0 SE, Nginx(Revers Proxy),   
   
 1. 로그인 기능 구현  
