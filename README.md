@@ -7,6 +7,7 @@
 Amazon Web Service Free Tier Account, Server version Linux Ubuntu 16.04 LTS, Amazon Free Tier RDS Service  
 BootStrap 4.04, MySQL 8.0 SE, HeidiSQL, ~~Nginx(Revers Proxy)~~, Node.js + Express, Vue.js, JavaScript ES6, Webpack4, Babel7  
 
+## Client Side
 ### 1. 로그인 기능 구현  
 JavaScript를 통해 웹 페이지를 구현하고 DB연동을 통한 데이터 교환에 따른 로그인 기능 구현 
 Google API를 통한 Google 로그인 기능 구현  
@@ -42,6 +43,8 @@ Galuxy Tab을 사용하여 테스트 빌드
 BootStarp을 사용한 Tablet / PC / Mobail 테스팅 
   
 3. 웹페이지를 웹뷰로 안드로이드에서 제공  
+
+## Server Side
 4. 무료 컴파일러나 웹 컴파일러를 이용한 텍스트 컴파일 기능
 5. 이미지 텍스트 추출 및 분류에 따른  파일 생성 
 6. 생성된 파일이나 텍스트를 통한 컴파일 결과값 제공 
