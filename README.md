@@ -5,7 +5,7 @@
   
 >개발환경(장비) : Windows 10, Cygwin, Android SDK 6.0 Mashmellow, Galxy Tab 8.0    
 Amazon Web Service Free Tier Account, Server version Linux Ubuntu 16.04 LTS, Amazon Free Tier RDS Service  
-BootStrap 4.04, MySQL 8.0 SE, Nginx(Revers Proxy), Node.js + Express, Vue.js, JavaScript ES6, Webpack4, Babel7  
+BootStrap 4.04, MySQL 8.0 SE, HeidiSQL, ~~Nginx(Revers Proxy)~~, Node.js + Express, Vue.js, JavaScript ES6, Webpack4, Babel7  
 
 ### 1. 로그인 기능 구현  
 JavaScript를 통해 웹 페이지를 구현하고 DB연동을 통한 데이터 교환에 따른 로그인 기능 구현 
