@@ -26,20 +26,20 @@ Galuxy Tab을 사용하여 테스트 빌드
 <--------------------------------------19.06.10 일시중단 ----------------->      
 
 
->CRUD React 게시판 구현   
+>CRUD React 게시판 구현 예제  
 [링크](https://forest71.tistory.com/183)  
 
-CRUD Express 게시판 구현  
+>CRUD Express 게시판 구현  예제
 [링크](https://develtraining.tistory.com/category/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/Node%20+%20Express%20+%20Mysql%20%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0)  
 
-CRUD Express 게시판 구현  
+>CRUD Express 게시판 구현  예제
 [링크](https://victorydntmd.tistory.com/29)  
 
-CRUD Vue 게시판 구현  
+>CRUD Vue 게시판 구현  예제
 [링크](https://gmground.tistory.com/entry/Vuejs%EB%A1%9C-List%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-CRUD-Pagination-Search-%EA%B5%AC%ED%98%84)  
 
 2. 반응형 웹페이지 구현  
-BootStarp을 사용  
+BootStarp을 사용한 Tablet / PC / Mobail 테스팅 
   
 3. 웹페이지를 웹뷰로 안드로이드에서 제공  
 4. 무료 컴파일러나 웹 컴파일러를 이용한 텍스트 컴파일 기능
