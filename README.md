@@ -46,5 +46,16 @@ BootStarp을 사용한 Tablet / PC / Mobail 테스팅
      > [관련링크](https://glqdlt.tistory.com/145)  
 3. 이미지 내 텍스트 추출  
     - [AWS Image Rekognition API](https://docs.aws.amazon.com/ko_kr/rekognition/latest/dg/text-detection.html) 최대 50개 단어 탐지, 텍스트는 가로축 +- 90 degrees 이내에 있어야 함.  
+    50개의 단어라 실제로 테스트를 해보아야할듯  
+    ```
+    #include <stdio.h>  
+    
+    int main(){  
+    
+    return 0;
+    }  
+    ```  
+    이미지로 할 때는 어떻게 이정도의 기본 구조를 제공해줄지도 고민해봐야할듯   
+    
 4. 게시판 CRUD    
 ### gcc 컴파일러를 이용한 웹 컴파일    
