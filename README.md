@@ -1,8 +1,7 @@
-# Project_CoTo
+# Project_CoTo  
+## 웹 환경에서의 컴파일을 제공하는 다목적 코딩 플랫폼 프로젝트
 19.04.02 ~ 19.04.19 중단  
 19.09.01 재시작 모바일 -> 웹 환경 변경 
-
-## 웹 환경에서의 컴파일을 제공하는 다목적 코딩 플랫폼 프로젝트  
   
 ## 개발환경  
 - Windows 10, Cygwin, Linux Ubuntu Server 18.04 LTS
@@ -17,7 +16,7 @@
 HeidiSQL, Webpack4, Babel7, Maven  
 
 ## Client Side
-### 1. 로그인 기능 구현  
+#### 1. 로그인 기능 구현  
 JavaScript를 통해 웹 페이지를 구현하고 DB연동을 통한 데이터 교환에 따른 로그인 기능 구현 
 Google API를 통한 Google 로그인 기능 구현  
 Facebook API를 통한 Facebook 로그인 기능 구현   
@@ -36,10 +35,10 @@ Linux Ubuntu 18.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Exp
 >CRUD Vue 게시판 구현  예제
 [링크](https://gmground.tistory.com/entry/Vuejs%EB%A1%9C-List%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-CRUD-Pagination-Search-%EA%B5%AC%ED%98%84)  
 
-2. 반응형 웹페이지 구현  
-BootStarp을 사용한 Tablet / PC / Mobail 테스팅 
+#### 2. 반응형 웹페이지 구현  
+- BootStarp을 사용한 Tablet / PC / Mobail 테스팅 
   
-3. 웹페이지를 웹뷰로 안드로이드에서 제공  
+#### 3. 웹페이지를 웹뷰로 안드로이드에서 제공  
 
 ## Server Side  
 #### 1. 웹 컴파일러를 이용한 컴파일 결과 생성  
