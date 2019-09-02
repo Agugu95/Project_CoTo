@@ -49,17 +49,17 @@ Linux Ubuntu 18.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Exp
 #### 3. 이미지 내 텍스트 추출  
    - [AWS Image Rekognition API](https://docs.aws.amazon.com/ko_kr/rekognition/latest/dg/text-detection.html) 최대 50개 단어 탐지, 텍스트는 가로축 +- 90 degrees 이내에 있어야 함.  
       50개의 단어라 실제로 테스트를 해보아야할듯  
-    ```
+```   
     #include <stdio.h>  
     
     int main(){  
     
     return 0;
-    }  
-    ```  
-    이미지로 할 때는 어떻게 이정도의 기본 구조를 제공해줄지도 고민해봐야할듯   
-    
-#### 4. 게시판 CRUD    
+    } 
+    이미지로 할 때는 어떻게 이정도의 기본 구조를 제공해줄지도 고민해봐야할듯
+```
+#### 4. 게시판 CRUD  
+
 ### gcc 컴파일러를 이용한 웹 컴파일러 구현  
 - 사실상 이 부분이 이 프로젝트의 알파이자 오메가요, 시작이자 끝인 부분이다.  
   웹 컴파일러의 구현 그러니까 알 수 없는 클라이언트에서 온 소스코드를 서버의 os에서 돌리는 이 상황을 어떻게 안전하고 빠르게 제공할 것인가?  
@@ -68,8 +68,10 @@ Linux Ubuntu 18.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Exp
   만약 '알 수 없는 클라이언트'가 Root 권한을 소유했다면?  
   만약 '알 수 없는 클라이언트'가 접근했을 때 리소스 용량에 제한이 없다면?  
   만약 '알 수 없는 클라이언트'가 준 소스코드가 Boxing 되어있지 않다면?  
-  관련해서 알아보니 보통 코드는 파일로 전송받고, Docker와 같은 가상화 컨테이너를 이용해 SandBoxing시킨다고 한다.    
-  
+  관련해서 알아보니 보통 코드는 파일로 전송받고, Docker와 같은 가상화 컨테이너를 이용해 SandBoxing시킨다고 한다.  
+- 서버 콘솔에서 컴파일하고, 결과를 반환해주는 방식과 웹 컴파일러의 API를 가져다 쓰는 방법이 있는데 일단 API를 사용하기로 결정  
+#### 1. [HackerEarth Compiler API](https://www.hackerearth.com/docs/wiki/developers/v3/)  
+#### 2. [Sphere Engine Compiler API](https://developer.sphere-engine.com/api/compilers?version=3)  
   
   
   
