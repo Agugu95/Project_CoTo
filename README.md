@@ -47,7 +47,7 @@ Linux Ubuntu 18.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Exp
      아마 이러면 Node.js를 사용하게 될 것 같다, 같은 이벤트 구동방식이긴 하지만 내가 아직 Netty에 대해서 잘 모르기 때문에..
      > [관련링크](https://glqdlt.tistory.com/145)  
 #### 3. 이미지 내 텍스트 추출  
-    - [AWS Image Rekognition API](https://docs.aws.amazon.com/ko_kr/rekognition/latest/dg/text-detection.html) 최대 50개 단어 탐지, 텍스트       는 가로축 +- 90 degrees 이내에 있어야 함.  
+   - [AWS Image Rekognition API](https://docs.aws.amazon.com/ko_kr/rekognition/latest/dg/text-detection.html) 최대 50개 단어 탐지, 텍스트는 가로축 +- 90 degrees 이내에 있어야 함.  
       50개의 단어라 실제로 테스트를 해보아야할듯  
     ```
     #include <stdio.h>  
