@@ -16,29 +16,22 @@
 HeidiSQL, Webpack4, Babel7, Maven  
 
 ## Client Side
-#### 1. 로그인 기능 구현  
-JavaScript를 통해 웹 페이지를 구현하고 DB연동을 통한 데이터 교환에 따른 로그인 기능 구현 
+#### 1. 로그인 기능 구현   
 Google API를 통한 Google 로그인 기능 구현  
 Facebook API를 통한 Facebook 로그인 기능 구현   
 Linux Ubuntu 18.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Express.js를 사용하여 WebServer를 구성예정  
 *_암호화 방식은 SHA - 256방식을 사용할 예정 [SHA-256](https://victorydntmd.tistory.com/144 )_*    
 
->CRUD React 게시판 구현 예제  
-[링크](https://forest71.tistory.com/183)  
-
 >CRUD Express 게시판 구현  예제
 [링크](https://develtraining.tistory.com/category/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/Node%20+%20Express%20+%20Mysql%20%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0)  
 
->CRUD Express 게시판 구현  예제
-[링크](https://victorydntmd.tistory.com/29)  
-
->CRUD Vue 게시판 구현  예제
-[링크](https://gmground.tistory.com/entry/Vuejs%EB%A1%9C-List%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-CRUD-Pagination-Search-%EA%B5%AC%ED%98%84)  
 
 #### 2. 반응형 웹페이지 구현  
 - BootStarp을 사용한 Tablet / PC / Mobail 테스팅 
   
 #### 3. 웹페이지를 웹뷰로 안드로이드에서 제공  
+- [Web Notification API(알림)](https://untitledtblog.tistory.com/107)  
+Chrom 브라우저에서 제공, 웹 서버를 통한 HTML 파일에서만 동작  
 
 ## Server Side  
 #### 1. 웹 컴파일러를 이용한 컴파일 결과 생성  
@@ -46,6 +39,8 @@ Linux Ubuntu 18.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Exp
    - 근본적으로 웹 소켓과 Ajax는 HTTP의 지속성 문제를 해결하기 위한 기술들이지만 WebSocket이 좀 더 문제해결의 정답에 가깝다.  
      아마 이러면 Node.js를 사용하게 될 것 같다, 같은 이벤트 구동방식이긴 하지만 내가 아직 Netty에 대해서 잘 모르기 때문에..
      > [관련링크](https://glqdlt.tistory.com/145)  
+   - 그냥 결과를 받을 때까지 대기해야하는 동기식 방식도 괜찮은듯  
+   
 #### 3. 이미지 내 텍스트 추출  
    - [AWS Image Rekognition API](https://docs.aws.amazon.com/ko_kr/rekognition/latest/dg/text-detection.html) 최대 50개 단어 탐지, 텍스트는 가로축 +- 90 degrees 이내에 있어야 함.  
       50개의 단어라 실제로 테스트를 해보아야할듯  
@@ -70,6 +65,7 @@ Linux Ubuntu 18.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Exp
   만약 '알 수 없는 클라이언트'가 준 소스코드가 Boxing 되어있지 않다면?  
   관련해서 알아보니 보통 코드는 파일로 전송받고, Docker와 같은 가상화 컨테이너를 이용해 SandBoxing시킨다고 한다.  
 - 서버 콘솔에서 컴파일하고, 결과를 반환해주는 방식과 웹 컴파일러의 API를 가져다 쓰는 방법이 있는데 일단 API를 사용하기로 결정  
+
 #### 1. [HackerEarth Compiler API](https://www.hackerearth.com/docs/wiki/developers/v3/)  
 #### 2. [Sphere Engine Compiler API](https://developer.sphere-engine.com/api/compilers?version=3)  
   
