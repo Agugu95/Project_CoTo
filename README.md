@@ -29,9 +29,11 @@ Linux Ubuntu 18.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Exp
 #### 2. 반응형 웹페이지 구현  
 - BootStarp을 사용한 Tablet / PC / Mobail 테스팅 
   
-#### 3. 웹페이지를 웹뷰로 안드로이드에서 제공  
+#### 3. 웹페이지  
 - [Web Notification API(알림)](https://untitledtblog.tistory.com/107)  
 Chrom 브라우저에서 제공, 웹 서버를 통한 HTML 파일에서만 동작  
+- [HTTPS](https://medium.com/@sejongdekang/node-js%EC%97%90%EC%84%9C-lets-encrypt-%EB%AC%B4%EB%A3%8C-ssl-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-fe337b87bfbb)  
+백그라운드 환경에서 [serviceWorker](https://medium.com/@sejongdekang/node-js-fcm-%EC%9B%B9%EC%95%B1-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9B%8C%EC%BB%A4-%EC%9C%BC%EB%A1%9C-%ED%91%B8%EC%8B%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-43c49b761dba)를 이용하여 웹 Push Notification을 주기 위해서는 https여야한다.  
 
 ## Server Side  
 #### 1. 웹 컴파일러를 이용한 컴파일 결과 생성  
