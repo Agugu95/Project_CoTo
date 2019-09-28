@@ -76,6 +76,19 @@ Ifream을 이용해 웹 컴파일러 사이트를 띄우는 것으로 타협
 - 서버 콘솔에서 컴파일하고, 결과를 반환해주는 방식과 웹 컴파일러의 API를 가져다 쓰는 방법이 있는데 일단 API를 사용하기로 결정  
 
 #### ~~1. [HackerEarth Compiler API](https://www.hackerearth.com/docs/wiki/developers/v3/)~~  
+
+#### 5. EC2 인스턴스 생성 및 배포  
+Windows와 Linux(Mac)의 ssh접근 방식이 달랐다.  
+- Linux(Mac)의 경우  
+이렇게 접근이 가능하지만    
+```
+$ ssh -i [Key pair filename] ubuntu@[Public DNS]
+```
+
+- Windows  
+윈도우의 경우는 Putty를 이용해서 접근해야하고, PuttyGen을 이용하여 EC2 Keypair를 Putty ssh키 방식으로 변환 해줘야한다.  
+자세한 [링크는](https://supdev.tistory.com/22)  
+
   
   
   
