@@ -9,7 +9,7 @@
 - Amazon Free tier EC2 Instance  
 - Python 3  
 - BootStrap  
-- SqLite
+- SqLite  
 ~~- Oracle JDK 1.8 (JAVA 8)~~    
 ~~- Node.js 10.16 LTS~~    
 ~~- BootStrap 4.04~~   
