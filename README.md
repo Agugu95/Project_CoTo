@@ -17,15 +17,6 @@
 - Mysql 8.0 SE (EC2)
 - django Framework  
 
-계획이었던 것 
-- Oracle JDK 1.8 (JAVA 8)      
-- Node.js 10.16 LTS  
-- IntelliJ Ultimate Edition for Student    
-- VSCode
-- Pycharm 
-  기타 툴   
-  - HeidiSQL, Webpack4, Babel7, Maven  
-
 ## Client Side
 #### 1. 로그인 기능 구현   
 Google API를 통한 Google 로그인 기능 구현  
@@ -37,24 +28,11 @@ Google API를 통한 Google 로그인 기능 구현
 #### 2. 반응형 웹페이지 구현  
 - BootStarp을 사용한 Tablet / PC / Mobail 테스팅 
   
-#### 3. 웹페이지  
-참고사항
-  - [Web Notification API(알림)](https://untitledtblog.tistory.com/107)  
-  Chrom 브라우저에서 제공, 웹 서버를 통한 HTML 파일에서만 동작  
-  - [HTTPS](https://medium.com/@sejongdekang/node-js%EC%97%90%EC%84%9C-lets-encrypt-%EB%AC%B4%EB%A3%8C-ssl-         %EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-fe337b87bfbb)  
-  - 백그라운드 환경에서 [serviceWorker](https://medium.com/@sejongdekang/node-js-fcm-%EC%9B%B9%EC%95%B1-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9B%8C%EC%BB%A4-%EC%9C%BC%EB%A1%9C-%ED%91%B8%EC%8B%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-43c49b761dba)를 이용하여 웹 Push Notification을 주기 위해서는 https여야한다.  
-
 ## Server Side  
-#### 1. 웹 컴파일러를 이용한 컴파일 결과 생성  
+#### 웹 컴파일러를 이용한 컴파일 결과 생성  
 Ifream을 이용해 웹 컴파일러 사이트를 띄우는 것으로 타협  
-
-#### ~~2. Ajax를 이용한 컴파일 결과 반환, 혹은 웹 소켓을 사용해도 될 것 같다.~~  
-   - 근본적으로 웹 소켓과 Ajax는 HTTP의 지속성 문제를 해결하기 위한 기술들이지만 WebSocket이 좀 더 문제해결의 정답에 가깝다.  
-     아마 이러면 Node.js를 사용하게 될 것 같다, 같은 이벤트 구동방식이긴 하지만 내가 아직 Netty에 대해서 잘 모르기 때문에..
-     > [관련링크](https://glqdlt.tistory.com/145)  
-   - 그냥 결과를 받을 때까지 대기해야하는 동기식 방식도 괜찮은듯  
    
-#### 3. 이미지 내 텍스트 추출  
+#### 이미지 내 텍스트 추출  
    - [AWS Image Rekognition API](https://docs.aws.amazon.com/ko_kr/rekognition/latest/dg/text-detection.html)  
     최대 50개 단어 탐지, 텍스트는 가로축 +- 90 degrees 이내에 있어야 함.  
     50개의 단어라 실제로 테스트를 해보아야할듯  
@@ -74,7 +52,7 @@ Ifream을 이용해 웹 컴파일러 사이트를 띄우는 것으로 타협
   Google의 OCR(Optic Character Recognaition) Engin을 사용한 이미지 텍스트 인식을 적용해보았음  
   기존 AWS의 Image Recognition API는 딥러닝을 이용한 인식이고 Tesseract는 [광학 문자인식]   (https://en.wikipedia.org/wiki/Optical_character_recognition)인데 인식되는 텍스트는 딥러닝보다 많았지만 문자의 정확도가 많이 떨어진다.  
 
-#### 4. 게시판 CRUD  
+#### 게시판 CRUD  
 
 ~~### gcc 컴파일러를 이용한 웹 컴파일러 구현~~  
 - 사실상 이 부분이 이 프로젝트의 알파이자 오메가요, 시작이자 끝인 부분이다.  
@@ -156,10 +134,12 @@ Docker를 지금 하기엔 러닝커브가 있을 것 같고, 로컬 환경이 �
 
 #### 7. 배포 자동화 해보기  
 - 캔슬  
-  
-# 돌이켜보니 좋았던 점  
 
-# 돌이켜보니 좋지못했던 점  
+# 코드와 추가적 내용 정리  
+[다른 프로젝트 팀원이 올려놓은 코드와 정리 자료](https://github.com/JeongGyuJun/COTO_project)  
+- 주 서비스 로직에 관한 개발은 이쪽이 맡음  
+- 코드를 한명이 관리했는데 저장소 전략을 사용해서 관리해야 함  
+- 역시나 서비스의 제대로 된 사진이 없음 ㅠㅠ  
 
 # 그래서 얻은 것은?  
 - Two is one, one is Nothing  
