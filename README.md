@@ -50,7 +50,7 @@ Ifream을 이용해 웹 컴파일러 사이트를 띄우는 것으로 타협
 
 - [Google Tesseract OCR API](https://github.com/tesseract-ocr/tesseract)  
   Google의 OCR(Optic Character Recognaition) Engin을 사용한 이미지 텍스트 인식을 적용해보았음  
-  기존 AWS의 Image Recognition API는 딥러닝을 이용한 인식이고 Tesseract는 [광학 문자인식]   (https://en.wikipedia.org/wiki/Optical_character_recognition)인데 인식되는 텍스트는 딥러닝보다 많았지만 문자의 정확도가 많이 떨어진다.  
+  기존 AWS의 Image Recognition API는 딥러닝을 이용한 인식이고 Tesseract는 [광학 문자인식](https://en.wikipedia.org/wiki/Optical_character_recognition)인데 인식되는 텍스트는 딥러닝보다 많았지만 문자의 정확도가 많이 떨어진다.  
 
 #### 게시판 CRUD  
 
@@ -112,7 +112,6 @@ CI + 배포 툴이였던 것
 Python의 경우 Fabric이라는 오픈 소스 툴이 있어서 원격으로 쉘 스크립트를 실행해 준다고 한다.  
 
 5. 무중단 배포와 배포 자동화  
-- 
   - 무중단 배포  
   무중단 배포는 서버가 돌아가고 있는 상태에서 서버의 작동을 멈추지 않고, 수정사항을 반영시키는 것을 말한다.  
   원래라면 컴파일 언어로 작성 된 서버의 경우 컴파일 과정에서 서비스가 중단되게 되어있다.  
@@ -133,13 +132,12 @@ Docker를 지금 하기엔 러닝커브가 있을 것 같고, 로컬 환경이 �
 따라서 가이드가 잘 되어있는 AWS의 Code Deploy를 이용하고, 빌드 자동화는 CI를 이용하기로 했다.  
 
 #### 7. 배포 자동화 해보기  
-- 캔슬  
+- 다음 프로젝트에서 시도하였다   
+[프로젝트 핸드업 배포 자동화와 무중단 배포]()
 
 # 코드와 추가적 내용 정리  
-[다른 프로젝트 팀원이 올려놓은 코드와 정리 자료](https://github.com/JeongGyuJun/COTO_project)  
-- 주 서비스 로직에 관한 개발은 이쪽이 맡음  
+[다른 팀원이 올려놓은 코드와 정리 자료](https://github.com/JeongGyuJun/COTO_project)    
 - 코드를 한명이 관리했는데 저장소 전략을 사용해서 관리해야 함  
-- 역시나 서비스의 제대로 된 사진이 없음 ㅠㅠ  
 
 # 그래서 얻은 것은?  
 - Two is one, one is Nothing  
