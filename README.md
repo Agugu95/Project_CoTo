@@ -1,13 +1,12 @@
 # Project_CoTo  
 ## 웹 환경에서의 컴파일을 제공하는 다목적 코딩 플랫폼 프로젝트
 19.04.02 ~ 19.09.01 중단
-19.09.01 재시작 
+19.09.01 재시작  
 19.09.28 정해진 기간 내에 빠르게 완성해야 했기에 많은 부분에서 수정이 이루어졌음.  
 19.11.11 99% 종료, 다만 DB 꼬임으로 인한 리팩토링  
 19.11월 중 종료, 창업 공모전 참여와 장려상 수상  
 
-## 개발환경
-실제로 사용된 것 
+## 개발환경 
 - Windows 10, Cygwin, Linux Ubuntu Server 18.04 LTS
 - Amazon Free tier EC2 Instance  
 - Putty, PuttyGen  
@@ -26,7 +25,7 @@ Google API를 통한 Google 로그인 기능 구현
   
 ## Server Side  
 #### 웹 컴파일러를 이용한 컴파일 결과 생성  
-Ifream을 이용해 웹 컴파일러 사이트를 띄우는 것으로 타협  
+Ifream을 이용해 웹 컴파일러 사이트를 띄우는 것으로 수정 
    
 #### 이미지 내 텍스트 추출  
    - [AWS Image Rekognition API](https://docs.aws.amazon.com/ko_kr/rekognition/latest/dg/text-detection.html)  
@@ -74,12 +73,10 @@ $ ssh -i [Key pair filename] ubuntu@[Public DNS]
 윈도우의 경우는 Putty를 이용해서 접근해야하고, PuttyGen을 이용하여 EC2 Keypair를 Putty ssh키 방식으로 변환 해줘야한다.  
 자세한 [링크는](https://supdev.tistory.com/22)  
 
-#### 6. 배포 자동화 해보기  
+#### 6. 배포 자동화
 소스코드는 compile -> build -> deploy의 과정을 거침. (인터프리터라면 컴파일 과정 생략)  
 이러한 소스 코드를 deploy하기 위해선 로컬 서버의 소스를 운영(서비스)서버에서 동작시켜야 함.  
-매번 코드를 Putty를 이용해서 배포하는 것은 우리 수준에서는 문제가 없긴함.  
-어차피 하나의 서버기 때문에 패키지, 프로그램등을 전부 스스로 설치해도 되니까.  
-하지만 배포 자동화 방식을 알아볼 겸 택하기로 함.  
+
 각 배포 자동화 방식의 차이를 알아보고 선택하기로 함.  
 - Docker를 이용한 이미지 컨테이너 방식  
 - AWS CodeBuild와 같은 Serverless Arechitecture를 이용한 방식   
