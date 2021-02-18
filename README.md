@@ -1,7 +1,7 @@
 # Project_CoTo  
 ## 웹 환경에서의 컴파일을 제공하는 다목적 코딩 플랫폼 프로젝트
-19.04.02 ~ 19.04.19 중단  
-19.09.01 재시작 모바일 -> 웹 환경 변경  
+19.04.02 ~ 19.09.01 중단
+19.09.01 재시작 
 19.09.28 정해진 기간 내에 빠르게 완성해야 했기에 많은 부분에서 수정이 이루어졌음.  
 19.11.11 99% 종료, 다만 DB 꼬임으로 인한 리팩토링  
 19.11월 중 종료, 창업 공모전 참여와 장려상 수상  
@@ -20,10 +20,6 @@
 ## Client Side
 #### 1. 로그인 기능 구현   
 Google API를 통한 Google 로그인 기능 구현  
-~~Facebook API를 통한 Facebook 로그인 기능 구현~~   
-~~Linux Ubuntu 18.04로 만들어진 Amazon EC2 인스턴스 내에 Node.js와 Express.js를 사용하여 WebServer를 구성예정  
-*_암호화 방식은 SHA - 256방식을 사용할 예정 [SHA-256](https://victorydntmd.tistory.com/144 )_*~~    
-
 
 #### 2. 반응형 웹페이지 구현  
 - BootStarp을 사용한 Tablet / PC / Mobail 테스팅 
@@ -65,7 +61,6 @@ Ifream을 이용해 웹 컴파일러 사이트를 띄우는 것으로 타협
   관련해서 알아보니 보통 코드는 파일로 전송받고, Docker와 같은 가상화 컨테이너를 이용해 SandBoxing시킨다고 한다.  
 - 서버 콘솔에서 컴파일하고, 결과를 반환해주는 방식과 웹 컴파일러의 API를 가져다 쓰는 방법이 있는데 일단 API를 사용하기로 결정  
 
-#### ~~1. [HackerEarth Compiler API](https://www.hackerearth.com/docs/wiki/developers/v3/)~~  
 
 #### 5. EC2 인스턴스 생성    
 Windows와 Linux(Mac)의 ssh접근 방식이 달랐다.  
@@ -140,8 +135,7 @@ Docker를 지금 하기엔 러닝커브가 있을 것 같고, 로컬 환경이 �
 - 코드를 한명이 관리했는데 저장소 전략을 사용해서 관리해야 함  
 
 # 그래서 얻은 것은?  
-- Two is one, one is Nothing  
-둘은 하나지만, 하나는 아무것도 아니다.  
+- Two is one, one is none.    
 - DB 설계와 ORM의 사용  
 - 커뮤니케이션이 정말 왜 중요한지 알았음  
 - 프로젝트 간 일정관리, 이슈 트래킹 등 기록의 중요성을 절실하게 깨달음  
